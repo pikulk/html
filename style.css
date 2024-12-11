@@ -1,0 +1,121 @@
+
+
+
+  table {
+    width: 100%;
+    max-width: 400px; /* Set max-width to prevent form from expanding too much */
+    margin: 0 auto; /* Center the form */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 8px; /* Reduce padding for smaller screens */
+    text-align: left;
+    border: 1px solid #ddd;
+
+}
+
+h3 {
+    
+}
+
+/* Menu section */
+.menu {
+
+}
+
+.menu a {
+
+}
+
+
+
+.container {
+
+    
+}
+
+.team-member {
+
+    
+}
+
+.team-member img {
+
+}
+
+.comment-section {
+
+
+}
+
+.comment {
+
+}
+.author {
+
+}
+.date {
+
+}
+
+/* CSS for making the comment form responsive */
+.comment-form {
+    width: 100%;
+    max-width: none; /* Remove the max-width */
+    margin: 0 auto; /* Center the form */
+    th, td {
+        border: none;
+    }
+}
+
+.comment-form td {
+    padding: 8px; /* Reduce padding for smaller screens */
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: calc(100% - 16px); /* Make text fields full width, accounting for padding and border */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.comment-form input[type="submit"]{
+    width: 48%; /* Set width for submit and reset buttons */
+    padding: 8px; /* Add padding to buttons */
+    box-sizing: border-box; /* Include padding in width */
+    
+}
+.comment-form input[type="reset"] {
+    width: 48%; /* Set width for submit and reset buttons */
+    padding: 8px; /* Add padding to buttons */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.comment-form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .team-member img {
+        width: 256px; /* Set the width to 256px for mobile devices */
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .team-member {
+        display: flex;
+    }
+    .team-member img {
+        width: 150px;
+        height: auto;
+        margin-right: 20px;
+    }
+    .team-member .info {
+        flex: 1;
+    }
+}
+
